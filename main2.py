@@ -28,7 +28,7 @@ def send_text(message):
     elif message.text.lower() == 'refresh inbox':
         bot.send_message(message.chat.id, 'First, generate an email',reply_markup=keyboard)
     elif message.text.lower() == 'about':
-        bot.send_message(message.chat.id, '░░░░░░░░About░░░░░░░░\n░ ⋆͙ ̈ ⋆ ͙ ̈ ⋆ ͙ ̈ ⋆ ͙ ̈ ⋆ ͙ ̈ ⋆ ͙ ̈  ⋆ ͙ ̈ ⋆ ͙ ̈ ⋆ ͙ ̈ ⋆ ͙ ̈ ░\n░ ⋆͙ ̈ ⋆ ͙ ̈  ͙Thanks for using⋆͙ ̈ ⋆ ͙ ̈  ░\n░ ⋆͙ ̈ ⋆ ͙ ̈ ⋆ ͙ ̈ ⋆ ͙ ̈ ⋆ ͙ ̈ ⋆ ͙ ̈  ⋆ ͙ ̈ ⋆ ͙ ̈ ⋆ ͙ ̈ ⋆ ͙ ̈ ░\n░͙ ̈ ⋆ ͙ ̈ ⋆ dev by @JKearnsl⋆͙ ̈ ⋆ ͙ ̈ ░')
+        bot.send_message(message.chat.id, '░░░░░░░░About░░░░░░░⋆ ͙ ̈ \n░ ⋆͙ ̈ ⋆ ͙ ̈ ⋆ ͙ ̈ ⋆ ͙ ̈ ⋆ ͙ ̈ ⋆ ͙ ̈  ⋆ ͙ ̈ ⋆ ͙ ̈ ⋆ ͙ ̈ ⋆ ͙ ̈⋆ ͙ ̈ \n░ ⋆͙ ̈ ⋆ ͙ ̈  ͙Thanks for using⋆͙ ̈ ⋆ ͙ ̈  ⋆ ͙ ̈ ⋆ ͙ ̈ \n░ ⋆͙ ̈ ⋆ ͙ ̈ ⋆ ͙ ̈ ⋆ ͙ ̈ ⋆ ͙ ̈ ⋆ ͙ ̈  ⋆ ͙ ̈ ⋆ ͙ ̈ ⋆ ̈ ⋆ ͙ ̈ ⋆ ͙ ̈ ⋆ ͙ ̈ ⋆ ͙ ̈ \n░͙ ̈ ⋆ ͙ ̈ ⋆ dev by @JKearnsl⋆͙ ̈ ⋆ ͙ ̈ ⋆ ͙ ̈ ⋆ ͙ ̈ ⋆ ͙ ̈ ⋆ ͙ ̈ ')
 
     elif message.text.lower()[14] == "[":
         email = message.text.lower()[15:message.text.lower().find("]")]
