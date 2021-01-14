@@ -35,7 +35,7 @@ while True:
                 bot.send_message(message.chat.id, 'First, generate an email', reply_markup=keyboard)
             elif message.text.lower() == 'about':
                 bot.send_message(message.chat.id,
-                                 '░░░░░░░░About:_\n░To refresh your inbox click on the button \n░"Refresh inbox". After a new letter arrives,\n░you will see a button with a subject line,\n░click on this button to read the message. \n░ ⋆͙ ̈ ⋆ ͙ ̈  ͙Thanks for using⋆͙ ̈ ⋆ ͙ ̈  ⋆ ͙ ̈ ⋆ ͙ ̈ \n░͙ ̈ ⋆ ͙ ̈ ⋆ dev by @JKearnsl⋆͙ ̈ ⋆ ͙ ̈ ⋆ ͙ ̈ ⋆ ͙ ̈ ')
+                                 '░░░░░░░░About:_\n░To refresh your inbox click on the button "Refresh inbox". After a new letter arrives, you will see a button with a subject line, click on this button to read the message. \n░ ⋆͙ ̈ ⋆ ͙ ̈  ͙Thanks for using⋆͙ ̈ ⋆ ͙ ̈  ⋆ ͙ ̈ ⋆ ͙ ̈ \n░͙ ̈ ⋆ ͙ ̈ ⋆ dev by @JKearnsl⋆͙ ̈ ⋆ ͙ ̈ ⋆ ͙ ̈ ⋆ ͙ ̈ ')
             elif message.text.lower()[14] == "[":
                 email = message.text.lower()[15:message.text.lower().find("]")]
                 bkeyboard = telebot.types.ReplyKeyboardMarkup(resize_keyboard=True)
