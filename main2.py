@@ -3,7 +3,7 @@ import telebot
 import requests
 from telebot.types import InlineKeyboardButton
 
-bot = telebot.TeleBot('1403126696:AAFqCtiiX-gzNLsFYsTmTmpQJRHSCHZY1cw')
+bot = telebot.TeleBot('')
 
 while True:
     try:
